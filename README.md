@@ -20,7 +20,7 @@ This is a RESTful API built with Node.js, Express, and MongoDB. It provides endp
 ## Configuration
 1. Make sure you have MongoDB installed and running on your local machine.
 2. Create a test database and create a collection named 'note_table'
-3. Edit the connection url in the `database.js` file `mongoose.connect("mongodb://localhost:**yourPort**/**yourDataBaseName**")`
+3. Edit the connection url in the `database.js` file `mongoose.connect("mongodb://localhost:yourPort/yourDataBaseName")`
 4. If needed, you can chance the local server port in the `server.js` file. The default port is *3030*.
 
 ## Getting Started
